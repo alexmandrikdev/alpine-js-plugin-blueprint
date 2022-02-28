@@ -1,17 +1,20 @@
 {
-  "name": "@victoryoalli/alpinejs-plugin-blueprint",
+  "name": "@mndalex/alpine-js-plugin-blueprint",
   "version": "1.0.0",
   "description": "Super alpine.js plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.esm.js",
   "unpkg": "dist/plugin.min.js",
   "keywords": [],
-  "author": "Victor Yoalli",
+  "author": "Alex Andras Mandrik",
   "license": "MIT",
   "dependencies": {
     "esbuild": "^0.12.22"
   },
   "scripts": {
     "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
   }
 }
